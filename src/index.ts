@@ -26,11 +26,6 @@ export const track = async (user: string, action: string, message: string) => {
     console.error(chalk.red(error));
   }
   fs.appendFile(`${process.cwd()}/${file}`, JSON.stringify(object) + '\r\n');
-  console.log({
-    action: action,
-    message: message,
-    timestamp: new Date().getTime(),
-  });
 };
 
 function _getFilename() {
