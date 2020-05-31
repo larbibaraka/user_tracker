@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Baraka Larbi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "user_tracker": "file:.."
+  }
+}
